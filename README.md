@@ -1,6 +1,6 @@
 # SearchGit
 
-Projeto desenvolvido durante as aulas de React do Gama Experience, da Gama Academy, totalamente baseado no repositório
+Projeto desenvolvido durante as aulas de React do Gama Experience, da Gama Academy, totlamente baseado nad aulas do
 [ramosht/gamagit](https://github.com/ramosht/gamagit)
 
 Feito usando [Create React App](https://github.com/facebook/create-react-app).
