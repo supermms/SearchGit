@@ -1,9 +1,9 @@
 # SearchGit
 
 Projeto desenvolvido durante as aulas de React do Gama Experience, da Gama Academy, totalamente baseado no repositório
-[https://github.com/ramosht/gamagit](ramosht/gamagit)
+[ramosht/gamagit](https://github.com/ramosht/gamagit)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Feito usando [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
