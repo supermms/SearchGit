@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom';
 
 export const Container = styled.div`
     width: 100%;
-
     margin: 0 auto;
 `;
 
@@ -60,11 +59,13 @@ export const GoToProfile = styled.a`
     border-radius: .5em;
     padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 1rem 0 0 10%; 
     width: 80%;
+    cursor: pointer;
+    text-decoration:none;
+    z-index: 1;
 
 `;
 
@@ -116,6 +117,8 @@ export const LinkToHome = styled(Link)`
     text-align: center;
     background-color: #000;
     color: #fff;
-    text-decoration: none;
     margin: 2rem auto;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: .5em;
 `;

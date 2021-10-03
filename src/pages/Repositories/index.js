@@ -39,14 +39,14 @@ export default function Repositories(){
                 <S.Avatar src={userInfo[2]}></S.Avatar>
                 <S.Name>{userInfo[0]}</S.Name>
                 <S.Username>{userInfo[1]}</S.Username>
-                <S.GoToProfile>Visit Profile</S.GoToProfile>
+                <S.GoToProfile href={`http://github.com/${userInfo[1]}`}>Visit on Github</S.GoToProfile>
             </S.UserContainer>
             <S.RepoList>
              {
                  repositories.map((repository) => {
                       return (
                           <S.ListItem>
-                              <h1>{repository[0]}</h1>
+                              <h1>{repository[0]} <a>visit</a></h1>
                               <h3>{repository[2] != null ? repository[2] : "No description."}</h3>
                           </S.ListItem>
                       )
@@ -54,7 +54,7 @@ export default function Repositories(){
             }
             </S.RepoList>
         </S.Content>
-        <S.LinkToHome to="/"> Voltar</S.LinkToHome>
+        <S.LinkToHome to="/"> Back</S.LinkToHome>
         </>
         
     )
